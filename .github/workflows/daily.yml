@@ -2,9 +2,11 @@ name: Daily Tester Bot
 
 on:
   schedule:
-    - cron: '0 10 * * *'   # 11:00 Tunisia time
+    - cron: '0 9 * * *'   # 11:00 Tunisia time
   workflow_dispatch:
-
+concurrency:
+  group: daily-tester-bot
+  cancel-in-progress: true
 jobs:
   run-bot:
     runs-on: ubuntu-latest
