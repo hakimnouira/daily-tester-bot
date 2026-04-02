@@ -37,7 +37,7 @@ Chaque jour, je sélectionne aléatoirement un membre de l’équipe pour prendr
 
 🙏 Merci de réagir à ce message (👍) afin de confirmer que vous l’avez bien vu.
 
-Merci pour votre collaboration et bon travail à tous 🚀
+bon travail à tous 🚀
 """
 }
 
